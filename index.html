@@ -8,7 +8,7 @@
 <body>
     <header>
         <h1>Ray Charles Robinson</h1>
-        <img id="image" src="https://upload.wikimedia.org/wikipedia/commons/e/e8/Ray_Charles_classic_piano_pose.jpg" alt="Ray Charles posando">
+        <img id="image" src="https://upload.wikimedia.org/wikipedia/commons/e/e8/Ray_Charles_classic_piano_pose.jpg" alt="Ray Charles posando"/>
         <div>
             <ul id="Caracteristicas">
               <li><a href="#Su-nacimiento">Nacimiento</a></li>
@@ -38,15 +38,18 @@
             <section>
                 <h2>Comenta que te parece la noticia</h2>
                 <form action="" method="">
-                    <label for="name">Nombre:</label>
-                    <input type="text" id="name" name="name" required>
-                    <br>
-                    <label for="email">Correo Electrónico:</label>
-                    <input type="email" id="email" name="email" required>
-                    <br>
-                    <label for="message">Mensaje:</label>
-                    <textarea id="message" name="message" rows="4" required></textarea>
-                    </br>
+                    <div>
+                        <label for="name">Nombre:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div>
+                        <label for="email">Correo Electrónico:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div>
+                        <label for="message">Mensaje:</label>
+                        <textarea id="message" name="message" rows="4" required></textarea>
+                    </div>
                     <label>¿Te interesó la noticia?</label>
                     <ul style="list-style-type: none; padding: 0;">
                         <li>
@@ -59,7 +62,6 @@
                             <label><input type="radio" name="interest" value="poco-interesante"> Poco interesante</label>
                         </li>
                     </ul>
-                    <br>
                     <button type="submit">Enviar</button>
                 </form>
             </section>
